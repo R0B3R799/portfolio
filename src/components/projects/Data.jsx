@@ -1,6 +1,5 @@
 import Project1 from "../../assets/monitor_nft_project.PNG";
 import Project3 from "../../assets/erc6551_project.PNG";
-import Project4 from "../../assets/project2.webp";
 import Project2 from "../../assets/profit_project.png";
 import Project7 from "../../assets/pandagifsmall.gif";
 import Project5 from "../../assets/ai_gif.gif";
