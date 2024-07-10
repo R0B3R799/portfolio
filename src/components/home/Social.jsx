@@ -4,9 +4,9 @@ import { FiTwitter, FiGithub, FiLinkedin} from "react-icons/fi";
 const Social = () => {
     return (
         <div className="home__social">
-            <a href="https://twitter.com/" className="home__social-icon" target="_blank" rel="noreferrer">
+            {/* <a href="https://twitter.com/" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiTwitter />
-            </a>
+            </a> */}
             <a href="https://github.com/R0B3R799" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiGithub />
             </a>

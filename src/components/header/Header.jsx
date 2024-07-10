@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './header.css';
 import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
-
+import { FaGithub } from 'react-icons/fa';
 
 const Header = () => {
     window.addEventListener("scroll", function () {
@@ -53,6 +53,12 @@ const Header = () => {
                             <a href="#contact" onClick={() => setActiveNav("#contact")} 
                             className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
                                 <HiOutlineMail className="nav__icon"/>Contact
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="https://github.com/R0B3R799" target="_blank" rel="noopener noreferrer" onClick={() => setActiveNav("#github")}
+                                className={activeNav === "#github" ? "nav__link active-link" : "nav__link"}>
+                                <FaGithub className="nav__icon" />GitHub
                             </a>
                         </li>
                     </ul>
