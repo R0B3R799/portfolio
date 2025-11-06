@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I create tools, websites and applications to help people and businesses achieve their goals.
+                    Full-Stack Software Engineer who builds scalable applications. I've founded a successful SaaS company, developed blockchain solutions, and created full-stack platforms with React, Python, and AWS. Passionate about delivering real value through clean, efficient code.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
