@@ -59,7 +59,7 @@ const Data = () => {
             Software Engineer 
         </h3>
         <p className="home__description">
-            Frontend + Backend Developer dedicated to create applications to any specification no matter how complex.
+            Full Stack Developer dedicated to create applications to any specification no matter how complex.
         </p>
 
         <a href="#contact" className="button button--flex">
