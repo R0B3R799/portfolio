@@ -163,4 +163,23 @@
 
 .modal__description {
     font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.modal__button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal__button:hover {
+    background-color: var(--first-color);
 }

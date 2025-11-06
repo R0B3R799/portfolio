@@ -3,8 +3,17 @@ import Project3 from "../../assets/erc6551_project.PNG";
 import Project2 from "../../assets/profit_project.png";
 import Project7 from "../../assets/pandagifsmall.gif";
 import Project5 from "../../assets/ai_gif.gif";
+import WorkingHolidayWork from "../../assets/workingholidaywork_logo.jpg";
 
 export const projectsData = [
+    {
+        id: 8,
+        image: WorkingHolidayWork,
+        title: "Working Holiday Work Platform",
+        categories: ["Frontend"],
+        description: "Comprehensive job platform for working holiday opportunities across Japan, Australia, and New Zealand. Built React 19 frontend with TypeScript and Material-UI featuring interactive 3D globe and map integration. Implemented complete AWS serverless backend with 19 Lambda functions and DynamoDB. Integrated AWS Cognito authentication with enterprise security including JWT validation and rate limiting. Features include user profiles, job applications, saved jobs, email notifications via AWS SES, and admin moderation.",
+        url: "https://workingholidaywork.com/",
+    },
     {
         id: 7,
         image: Project7,
